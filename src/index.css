@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-cream: #FBF4D8;
+    --accent-blue: #4F5CF5;
+    --accent-lavender: #A6A9EE;
+    --surface-white: #FFFDF8;
+    --text-charcoal: #171717;
+    --text-muted: #777777;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, .font-serif, .font-sans {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  }
+}
+
+.font-serif, .font-sans, .font-editorial {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Custom scrollbar for subtle luxury aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF4D8;
+}
+::-webkit-scrollbar-thumb {
+  background: #A6A9EE;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4F5CF5;
+}

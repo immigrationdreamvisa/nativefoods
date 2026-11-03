@@ -1,0 +1,7 @@
+{
+  "name": "Native Foods — Premium Wild Açaí & Superfoods",
+  "description": "Discover authentic wild Amazonian açaí, pitaya, and artisanal superfoods harvested sustainably. Premium organic purées, vibrant bowls, and wholesome recipes from Native Foods Portugal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
